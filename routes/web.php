@@ -28,7 +28,15 @@ Route::get('/info', function() {
 });
 
 Route::get('/okupansi', function() {
-  return view('sistem.okupansi');
+  return view('pembentuk.okupansi');
+});
+
+Route::get('/okupansi/view', function() {
+  return view('pembentuk.okupansiview');
+});
+
+Route::get('/bahankajian', function() {
+  return view('pembentuk.bahankajian');
 });
 
 // Pembuatan Kurikulum

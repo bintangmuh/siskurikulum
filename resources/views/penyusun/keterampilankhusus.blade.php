@@ -20,7 +20,7 @@
         <div class="col-sm-12">
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Database Keterampilan Khusus Komputer Junior</h3>
+              <h3 class="box-title">Database Keterampilan Khusus:s Komputer Junior</h3>
             </div>
           </div>
         </div>
@@ -28,7 +28,7 @@
         <div class="col-sm-12">
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Database Keterampilan Khusus Database Admin Junior</h3>
+              <h3 class="box-title">Database Keterampilan Khusus: Database Admin Junior</h3>
             </div>
           </div>
         </div>

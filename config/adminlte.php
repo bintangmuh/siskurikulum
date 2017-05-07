@@ -155,7 +155,7 @@ return [
         ],
         [
             'text' => 'Bahan Kajian',
-            'url'  => 'admin/blog'
+            'url'  => '/bahankajian '
         ],
         [
             'text' => 'Okupansi Industri',

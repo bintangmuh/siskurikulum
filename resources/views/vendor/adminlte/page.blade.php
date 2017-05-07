@@ -3,6 +3,8 @@
 @section('adminlte_css')
     <link rel="stylesheet"
           href="{{ asset('vendor/adminlte/dist/css/skins/skin-' . config('adminlte.skin', 'blue') . '.min.css')}} ">
+
+          <link rel="stylesheet" href="{{ asset('/css/sweetalert.css')}} ">
     @stack('css')
     @yield('css')
 @stop
@@ -128,10 +130,15 @@
 
     </div>
     <!-- ./wrapper -->
+
 @stop
 
 @section('adminlte_js')
     <script src="{{ asset('vendor/adminlte/dist/js/app.min.js') }}"></script>
+    <script src="{{ asset('/js/sweetalert.min.js')}} "></script> 
     @stack('js')
     @yield('js')
+
+    @include('sweet::alert')
+
 @stop

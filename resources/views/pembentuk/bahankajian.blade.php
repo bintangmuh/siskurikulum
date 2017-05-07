@@ -21,7 +21,6 @@
               <th>No.</th>
               <th>Bahan Kajian</th>
               <th>Deskripsi</th>
-              <th>Mata Kuliah</th>
               <th></th>
             </thead>
             <tbody>
@@ -31,9 +30,7 @@
                 <td>
                   Kelompok kajian Matematika & Statistik terdiri dari mata kuliah-mata kuliah Statistika dan Matematika yang bersifat numerik yang mendukung dalam proses komputasi program,
                 </td>
-                <td>
 
-                </td>
                 <td>
                   <a href="#" class="btn btn-primary">edit</a>
                   <a href="#" class="btn btn-danger">delete</a>
@@ -45,9 +42,7 @@
                 <td>
                   Kelompok kajian algoritma dan pemrograman terdiri dari mata kuliahmata kuliah yang mendukung proses algoritma, eksekusi program dan juga software pemrograman yang dipakai dalam membangun system aplikasi berbasis computer,
                 </td>
-                <td>
 
-                </td>
                 <td>
                   <a href="#" class="btn btn-primary">edit</a>
                   <a href="#" class="btn btn-danger">delete</a>
@@ -71,7 +66,8 @@
       </div>
       <div class="modal-body">
         <div class="row">
-          <form class="" action="index.html" method="post">
+          <form class="" action="{{ url('/bahankajian')}}" method="post">
+            {{ csrf_field() }}
             <div class="form-group">
               <label for="namabk" class="col-sm-4">Nama Bahan Kajian: </label>
               <div class="col-sm-12">

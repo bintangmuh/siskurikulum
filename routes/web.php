@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -39,6 +38,11 @@ Route::get('/bahankajian', function() {
   return view('pembentuk.bahankajian');
 });
 
+Route::post('/bahankajian', function() {
+  Alert::success('Berhasil Menambahkan Bahan Kajian', 'Berhasil menambah bahan kajian ');
+
+  return redirect('/bahankajian');
+});
 // Pembuatan Kurikulum
 Route::get('/rumusanpl', function() {
   return view('penyusun.profillulusan');

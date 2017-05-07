@@ -133,34 +133,39 @@ return [
             'submenu' => [
               [
                 'text' => 'Sikap',
-                'url' => '/'
+                'url' => 'sikap'
               ],
               [
                 'text' => 'Pengetahuan',
-                'url' => '/'
+                'url' => 'pengetahuan'
               ],
               [
                 'text' => 'Keterampilan Umum',
-                'url' => '/'
+                'url' => 'keterampilanumum'
               ],
               [
                 'text' => 'Keterampilan Khusus',
-                'url' => '/'
+                'url' => 'keterampilankhusus'
               ]
             ]
-        ],
-        [
-            'text' => 'Input Profil Lulusan',
-            'url'  => 'admin/blog'
-        ],
-        [
-            'text' => 'Bahan Kajian',
-            'url'  => '/bahankajian '
         ],
         [
             'text' => 'Okupansi Industri',
             'url'  => 'okupansi'
         ],
+        // [
+        //     'text' => 'Input Profil Lulusan',
+        //     'url'  => 'admin/blog'
+        // ],
+        [
+            'text' => 'Bahan Kajian',
+            'url'  => 'bahankajian'
+        ],
+        [
+            'text' => 'Mata Kuliah',
+            'url'  => 'makul'
+        ],
+
         'Pembentukan Kurikulum',
         [
             'text' => 'Susunan Profil Lulusan',

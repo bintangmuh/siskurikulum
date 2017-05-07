@@ -38,10 +38,31 @@ Route::get('/bahankajian', function() {
   return view('pembentuk.bahankajian');
 });
 
-Route::post('/bahankajian', function() {
-  Alert::success('Berhasil Menambahkan Bahan Kajian', 'Berhasil menambah bahan kajian ');
+Route::get('/makul', function() {
+  return view('pembentuk.matakuliah');
+});
 
-  return redirect('/bahankajian');
+Route::get('/sikap', function() {
+  return view('pembentuk.sikap');
+});
+
+Route::get('/pengetahuan', function() {
+  return view('pembentuk.pengetahuan');
+});
+
+Route::get('/keterampilanumum', function() {
+  return view('pembentuk.keterampilanumum');
+});
+
+Route::get('/keterampilankhusus', function() {
+  return view('pembentuk.keterampilankhusus');
+});
+
+
+Route::post('/bahankajian', function() {
+  Alert::success('Berhasil Menambahkan', 'Berhasil menambah masukan anda');
+
+  return redirect()->back();
 });
 // Pembuatan Kurikulum
 Route::get('/rumusanpl', function() {

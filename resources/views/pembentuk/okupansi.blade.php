@@ -18,7 +18,7 @@
 
       <div class="box box-default">
         <div class="box-header with-border">
-          <p class="box-title">Test</p>
+          <p class="box-title">Okupansi di Dunia Industri</p>
         </div>
         <div class="box-body">
           <table class="table table-responsive">
@@ -33,7 +33,7 @@
                 <td>1.</td>
                 <td>Programmer mobile application</td>
                 <td>Lulusan ini diharapkan akan mampu memahami dasar pemrograman berbasis obyek, pembuatan antara muka grafis, teknologi jaringan wireless, dan memahami pemrograman mobile.</td>
-                <td><a href="#" class="btn btn-primary">Lihat</a></td>
+                <td><a href="{{ url('/okupansi/view')}}" class="btn btn-primary">Lihat</a></td>
                 <td><a href="#" class="btn btn-danger">Hapus</a></td>
               </tr>
               <tr>

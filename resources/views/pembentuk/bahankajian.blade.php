@@ -8,7 +8,6 @@
   <div class="row">
     <div class="col-sm-12" style="margin-bottom: 20px;">
       <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#tambahbk">Tambah Bahan Kajian</a>
-      <a href="#" class="btn btn-primary btn-lg">Tambah Mata Kuliah</a>
     </div>
     <div class="col-sm-12">
       <div class="box box-primary">
@@ -56,44 +55,44 @@
   </div>
 
 <div id="tambahbk" class="modal fade" role="dialog">
-  <div class="modal-dialog">
+<div class="modal-dialog">
 
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Tambah Bahan Kajian</h4>
-      </div>
-      <div class="modal-body">
-        <div class="row">
-          <form class="" action="{{ url('/bahankajian')}}" method="post">
-            {{ csrf_field() }}
-            <div class="form-group">
-              <label for="namabk" class="col-sm-4">Nama Bahan Kajian: </label>
-              <div class="col-sm-12">
-                <input type="text" id="namabk" class="form-control col-sm-8" name="" value="" placeholder="Bahan Kajian Baru">
-              </div>
+  <!-- Modal content-->
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <h4 class="modal-title">Tambah Bahan Kajian</h4>
+    </div>
+    <div class="modal-body">
+      <div class="row">
+        <form class="" action="{{ url('/bahankajian')}}" method="post">
+          {{ csrf_field() }}
+          <div class="form-group">
+            <label for="namabk" class="col-sm-4">Nama Bahan Kajian: </label>
+            <div class="col-sm-12">
+              <input type="text" id="namabk" class="form-control col-sm-8" name="" value="" placeholder="Bahan Kajian Baru">
             </div>
-            <div class="form-group">
-              <label for="namabk" class="col-sm-4">Deskripsi Bahan Kajian: </label>
-              <div class="col-sm-12">
-                <textarea name="deskripsibk" class="form-control" rows="8" cols="80" placeholder="Deskripsi Bahan Kajian Baru"></textarea>
-              </div>
+          </div>
+          <div class="form-group">
+            <label for="namabk" class="col-sm-4">Deskripsi Bahan Kajian: </label>
+            <div class="col-sm-12">
+              <textarea name="deskripsibk" class="form-control" rows="8" cols="80" placeholder="Deskripsi Bahan Kajian Baru"></textarea>
             </div>
-            <div class="form-group">
-              <div class="col-sm-12">
-                <br>
-                <button type="submit" class="btn btn-primary" name="button">Simpan</button>
-                <button type="button" class="btn btn-default" data-dismiss="modal">Batalkan</button>
-              </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <br>
+              <button type="submit" class="btn btn-primary" name="button">Simpan</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Batalkan</button>
             </div>
-          </form>
-        </div>
-      </div>
-      <div class="modal-footer">
+          </div>
+        </form>
       </div>
     </div>
-
+    <div class="modal-footer">
+    </div>
   </div>
+
+</div>
 </div>
 @endsection

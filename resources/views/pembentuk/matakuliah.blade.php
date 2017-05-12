@@ -18,6 +18,7 @@
             <thead>
               <th>No.</th>
               <th>Mata Kuliah</th>
+              <th>SKS</th>
               <th>Bahan Kajian</th>
               <th></th>
             </thead>
@@ -25,36 +26,42 @@
               <tr>
                 <td>1</td>
                 <td>Agama</td>
+                <td> 2 | 0</td>
                 <td>Kecakapan Hidup</td>
                 <td><a href="#" class="btn btn-danger">delete</a></td>
               </tr>
               <tr>
                 <td>2</td>
                 <td>Kewarganegraan</td>
+                <td> 2 | 0</td>
                 <td>Kecakapan Hidup</td>
                 <td><a href="#" class="btn btn-danger">delete</a></td>
               </tr>
               <tr>
                 <td>3</td>
                 <td>Pancasila</td>
+                <td> 2 | 0</td>
                 <td>Kecakapan Hidup</td>
                 <td><a href="#" class="btn btn-danger">delete</a></td>
               </tr>
               <tr>
                 <td>4</td>
                 <td>Pemrograman</td>
+                <td> 2 | 2</td>
                 <td>Algoritma dan Pemrograman</td>
                 <td><a href="#" class="btn btn-danger">delete</a></td>
               </tr>
               <tr>
                 <td>5</td>
                 <td>Struktur Data</td>
+                <td> 2 | 2</td>
                 <td>Algoritma dan Pemrograman</td>
                 <td><a href="#" class="btn btn-danger">delete</a></td>
               </tr>
               <tr>
                 <td>6</td>
                 <td>Algoritma</td>
+                <td> 2 | 2</td>
                 <td>Kecakapan Hidup</td>
                 <td><a href="#" class="btn btn-danger">delete</a></td>
               </tr>

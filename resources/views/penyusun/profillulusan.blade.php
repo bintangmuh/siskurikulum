@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <div class="col-sm-6">
+    <div class="col-sm-12">
 
       <div class="box box-primary">
         <table class="table">
@@ -31,23 +31,31 @@
             <th>Keahlian</th>
           </thead>
           <tbody>
-            @for ($i=0; $i < 5; $i++)
-              <tr>
-                <td><input type="checkbox" name="" value=""></td>
-                <td>Computer Junior</td>
-                <td><a href="#" class="btn btn-default" data-toggle="modal" data-target="#okupansi-detail">View</a></td>
-              </tr>
-              <tr>
-                <td><input type="checkbox" name="" value=""></td>
-                <td>DB Admin Junior</td>
-                <td><a href="#" class="btn btn-default">View</a></td>
-              </tr>
-            @endfor
+            <tr>
+              <td class="text-center"><input type="checkbox" name="" value=""></td>
+              <td>Programmer Mobile</td>
+              <td><a href="#" class="btn btn-default" data-toggle="modal" data-target="#okupansi-detail">View</a></td>
+            </tr>
+            <tr>
+              <td class="text-center"><input type="checkbox" name="" value=""></td>
+              <td>Pengembang Aplikasi Web</td>
+              <td><a href="#" class="btn btn-default" data-toggle="modal" data-target="#okupansi-detail">View</a></td>
+            </tr>
+            <tr>
+              <td class="text-center"><input type="checkbox" name="" value=""></td>
+              <td>Database Administrator</td>
+              <td><a href="#" class="btn btn-default" data-toggle="modal" data-target="#okupansi-detail">View</a></td>
+            </tr>
+            <tr>
+              <td class="text-center"><input type="checkbox" name="" value=""></td>
+              <td>Rancangan E-Business</td>
+              <td><a href="#" class="btn btn-default" data-toggle="modal" data-target="#okupansi-detail">View</a></td>
+            </tr>
           </tbody>
         </table>
         <div class="box-footer">
-          <a href="#" class="btn btn-primary">Simpan</a>
-          <a href="#" class="btn btn-default right">Tambah Okupansi</a>
+          <a href="{{ url('/rumusan/sikap') }}" class="btn btn-primary">Simpan dan Selanjutnya</a>
+          {{-- <a href="#" class="btn btn-default right">Tambah Okupansi</a> --}}
         </div>
       </div>
     </div>

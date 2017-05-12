@@ -118,11 +118,11 @@ return [
             'submenu' => [
               [
                 'text' => 'Capaian Lulusan',
-                'url' => '/'
+                'url' => 'cpl'
               ],
               [
                 'text' => 'Struktur Kurikulum',
-                'url' => '/'
+                'url' => 'struktur'
               ],
             ]
         ],
@@ -194,8 +194,12 @@ return [
             ]
         ],
         [
-            'text' => 'Susun Bahan Kajian dan MK',
-            'url'  => 'okupansi'
+            'text' => 'Susun Bahan Kajian',
+            'url'  => 'rumusan/bahankajian'
+        ],
+        [
+            'text' => 'Susun Mata Kuliah',
+            'url'  => 'rumusan/matakuliah'
         ],
     ],
 

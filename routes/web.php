@@ -11,7 +11,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/login');
 });
 
 Route::get('/login', function() {
@@ -24,6 +24,15 @@ Route::get('/dashboard', function() {
 
 Route::get('/info', function() {
   return view('sistem.info');
+});
+
+Route::get('/cpl', function() {
+  return view('sistem.cpl');
+});
+
+
+Route::get('/struktur', function() {
+  return view('penyusun.struktur');
 });
 
 Route::get('/okupansi', function() {
@@ -83,6 +92,18 @@ Route::get('/rumusan/keterampilanumum', function() {
 
 Route::get('/rumusan/keterampilankhusus', function() {
   return view('penyusun.keterampilankhusus');
+});
+
+Route::get('/rumusan/bahankajian', function() {
+  return view('penyusun.bahankajian');
+});
+
+Route::get('/rumusan/matakuliah', function() {
+  return view('penyusun.matakuliah');
+});
+
+Route::get('/rumusan/konfirmasi', function() {
+  return view('penyusun.konfirmasi');
 });
 
 Route::get('/kangen', function() {

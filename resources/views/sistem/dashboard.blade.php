@@ -8,17 +8,29 @@
 
 @section('content')
   <div class="row">
+    <!-- Apply any bg-* class to to the info-box to color it -->
     <div class="col-sm-6">
-      <h3>Membentuk Database</h3>
-      <a href="#" class="btn btn-primary btn-block">Input LO</a>
-      <a href="#" class="btn btn-primary btn-block">Input Profil Lulusan</a>
-      <a href="#" class="btn btn-primary btn-block">Input Bahan Kajian</a>
-      <a href="#" class="btn btn-primary btn-block">Input Mata Kuliah</a>
+      <div class="info-box bg-blue">
+        <span class="info-box-icon"><i class="fa fa-database"></i></span>
+        <div class="info-box-content">
+          <span class="info-box-text">Lengkapi Database</span>
+          <span class="progress-description">
+            Membentuk database bahan kurikulum <br> <a href="{{ url('/sikap') }}" class="btn btn-default">Disini</a>
+          </span>
+        </div>
+      </div>
     </div>
+
     <div class="col-sm-6">
-      <h3>Membentuk Aturan</h3>
-      <a href="#" class="btn btn-primary btn-block">Formulasi Mata Kuliah</a>
-      <a href="#" class="btn btn-primary btn-block">Formulasi Semester</a>
+      <div class="info-box bg-green">
+        <span class="info-box-icon"><i class="fa fa-graduation-cap"></i></span>
+        <div class="info-box-content">
+          <span class="info-box-text">Buat Kurikulum</span>
+          <span class="progress-description">
+            Pembuatan Kurikulum <br>  <a href="{{ url('/rumusanpl') }}" class="btn btn-default">Disini</a>
+          </span>
+        </div>
+      </div>
     </div>
   </div>
 

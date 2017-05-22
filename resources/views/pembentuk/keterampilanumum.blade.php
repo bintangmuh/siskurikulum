@@ -14,77 +14,90 @@
       <div class="box box-primary">
         <table class="table">
           <thead>
+            <th></th>
             <th>No.</th>
             <th>Capaian</th>
             <th></th>
           </thead>
           <tbody>
             <tr>
+              <td><input type="checkbox" name=""></td>
               <td>1</td>
               <td>mampu menyelesaikan pekerjaan berlingkup luas dan menganalisis data dengan beragam metode yang sesuai, baik yang belum maupun yang sudah baku;</td>
               <td>
-                <a href="#" class="btn btn-primary">edit</a>
-                <a href="#" class="btn btn-danger">Hapus</a>
+                <!-- <a href="#" class="btn btn-primary">edit</a>
+                <a href="#" class="btn btn-danger">Hapus</a> -->
               </td>
             </tr>
             <tr>
+              <td><input type="checkbox" name=""></td>
               <td>2</td>
               <td>Mampu menunjukkan kinerja mandiri, bermutu, dan terukur </td>
               <td>
-                <a href="#" class="btn btn-primary">edit</a>
-                <a href="#" class="btn btn-danger">Hapus</a>
+                <!-- <a href="#" class="btn btn-primary">edit</a>
+                <a href="#" class="btn btn-danger">Hapus</a> -->
               </td>
             </tr>
             <tr>
+              <td><input type="checkbox" name=""></td>
               <td>3</td>
               <td>mampu memecahkan masalah pekerjaan dengan sifat dan konteks yang sesuai dengan bidang keahlian terapannya, didasarkan pada pemikiran logis, inovatif, dan bertanggung jawab atas hasilnya secara mandiri;</td>
               <td>
-                <a href="#" class="btn btn-primary">edit</a>
-                <a href="#" class="btn btn-danger">Hapus</a>
+                <!-- <a href="#" class="btn btn-primary">edit</a>
+                <a href="#" class="btn btn-danger">Hapus</a> -->
               </td>
             </tr>
             <tr>
+              <td><input type="checkbox" name=""></td>
               <td>4</td>
               <td>mampu menyusun laporan hasil dan proses kerja secara akurat dan sahih, serta mengomunikasikan-nya secara efektif kepada pihak lain yang membutuhkan;</td>
               <td>
-                <a href="#" class="btn btn-primary">edit</a>
-                <a href="#" class="btn btn-danger">Hapus</a>
+                <!-- <a href="#" class="btn btn-primary">edit</a>
+                <a href="#" class="btn btn-danger">Hapus</a> -->
               </td>
             </tr>
             <tr>
+              <td><input type="checkbox" name=""></td>
               <td>5</td>
               <td>Mampu bekerja sama, berkomunikasi, dan berinovatif dalam pekerjaannya;</td>
               <td>
-                <a href="#" class="btn btn-primary">edit</a>
-                <a href="#" class="btn btn-danger">Hapus</a>
+                <!-- <a href="#" class="btn btn-primary">edit</a>
+                <a href="#" class="btn btn-danger">Hapus</a> -->
               </td>
             </tr>
             <tr>
+              <td><input type="checkbox" name=""></td>
               <td>6</td>
               <td>mampu bertanggungjawab atas pencapaian hasil kerja kelompok dan melakukan supervisi dan evaluasi terhadap penyelesaian pekerjaan yang ditugaskan kepada pekerja yang berada di bawah tanggung-jawabnya;</td>
               <td>
-                <a href="#" class="btn btn-primary">edit</a>
-                <a href="#" class="btn btn-danger">Hapus</a>
+                <!-- <a href="#" class="btn btn-primary">edit</a>
+                <a href="#" class="btn btn-danger">Hapus</a> -->
               </td>
             </tr>
             <tr>
+              <td><input type="checkbox" name=""></td>
               <td>7</td>
               <td>mampu melakukan proses evaluasi diri terhadap kelompok kerja yang berada dibawah tanggungjawabnya, dan mengelola pengembangan kompetensi kerja secara mandiri;</td>
               <td>
-                <a href="#" class="btn btn-primary">edit</a>
-                <a href="#" class="btn btn-danger">Hapus</a>
+                <!-- <a href="#" class="btn btn-primary">edit</a>
+                <a href="#" class="btn btn-danger">Hapus</a> -->
               </td>
             </tr>
             <tr>
+              <td><input type="checkbox" name=""></td>
               <td>8</td>
               <td>mampu mendokumentasikan, menyimpan, mengamankan, dan menemukan kembali data untuk menjamin kesahihan dan mencegah plagiasi;</td>
               <td>
-                <a href="#" class="btn btn-primary">edit</a>
-                <a href="#" class="btn btn-danger">Hapus</a>
+                <!-- <a href="#" class="btn btn-primary">edit</a>
+                <a href="#" class="btn btn-danger">Hapus</a> -->
               </td>
             </tr>
           </tbody>
         </table>
+        <div class="box-footer">
+            <button class="btn btn-sm btn-primary "><i class="fa fa-pencil"></i></button>
+            <button class="btn btn-sm btn-danger"><i class="fa fa-times"></i></button>
+        </div>
       </div>
     </div>
 

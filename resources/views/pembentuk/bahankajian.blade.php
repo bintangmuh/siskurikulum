@@ -7,7 +7,7 @@
 @section('content')
   <div class="row">
     <div class="col-sm-12" style="margin-bottom: 20px;">
-      <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#tambahbk">Tambah Bahan Kajian</a>
+      <a href="#" class="btn btn-primary btn" data-toggle="modal" data-target="#tambahbk">Tambah Bahan Kajian</a>
     </div>
     <div class="col-sm-12">
       <div class="box box-primary">
@@ -31,8 +31,8 @@
                 </td>
 
                 <td>
-                  <a href="#" class="btn btn-primary">edit</a>
-                  <a href="#" class="btn btn-danger">delete</a>
+                  <!-- <a href="#" class="btn btn-primary">edit</a>
+                  <a href="#" class="btn btn-danger">delete</a> -->
                 </td>
               </tr>
               <tr>
@@ -43,8 +43,8 @@
                 </td>
 
                 <td>
-                  <a href="#" class="btn btn-primary">edit</a>
-                  <a href="#" class="btn btn-danger">delete</a>
+                  <!-- <a href="#" class="btn btn-primary">edit</a>
+                  <a href="#" class="btn btn-danger">delete</a> -->
                 </td>
               </tr>
             </tbody>

@@ -3,7 +3,7 @@
 @section('title', 'Dashboard System')
 
 @section('content_header')
-  <h1>Dashboard - Kurikulum Maker</h1>
+  <h1>Dashboard - Sistem Kurikulum</h1>
 @endsection
 
 @section('content')

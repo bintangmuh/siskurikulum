@@ -30,9 +30,9 @@ return [
     |
     */
 
-    'logo' => '<b>Kurikulum Maker</b> PSBO',
+    'logo' => '<b>Sistem Pembuat Kurikulum</b> PSBO',
 
-    'logo_mini' => 'KMPSBO',
+    'logo_mini' => 'SPK-PSBO',
 
     /*
     |--------------------------------------------------------------------------

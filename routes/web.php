@@ -102,6 +102,10 @@ Route::get('/rumusan/matakuliah', function() {
   return view('penyusun.matakuliah');
 });
 
+Route::get('/rumusan/mapping', function() {
+  return view('penyusun.mapping');
+});
+
 Route::get('/rumusan/konfirmasi', function() {
   return view('penyusun.konfirmasi');
 });

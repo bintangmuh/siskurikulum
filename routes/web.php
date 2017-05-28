@@ -106,6 +106,14 @@ Route::get('/rumusan/mapping', function() {
   return view('penyusun.mapping');
 });
 
+Route::get('/rumusan/profil/mapping', function() {
+  return view('penyusun.mappingprofil');
+});
+
+Route::get('/rumusan/bk/mapping', function() {
+  return view('penyusun.mappingBK');
+});
+
 Route::get('/rumusan/konfirmasi', function() {
   return view('penyusun.konfirmasi');
 });

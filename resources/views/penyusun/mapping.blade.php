@@ -1,45 +1,159 @@
 @extends('adminlte::page')
 
+@push('css')
+<style media="screen">
+  .buzzmap .node {
+    z-index: 100;
+    cursor: default;
+    display: block;
+
+    background:rgb(9, 123, 164);
+    opacity:0.9;
+    color:white;
+    font-size:1em;
+    text-align: center;
+    padding:0 7px;
+    font-size:1.2em;
+  }
+  .buzzmap .node.active a {
+  color:#fff;
+  }
+
+  .buzzmap .node a {
+  color:#fff;
+  }
+  .buzzmap .node .node  {
+    background-color: rgb(240, 192, 68);
+  }
+  .buzzmap .node.root {
+    padding:5px 10px;
+    background:rgb(254, 153, 34);
+
+    font-size:2em;
+  }
+  .edit-field {
+    color: #000;
+  }
+  .edit-button {
+    color: #000;
+
+  }
+</style>
+@endpush
+
 @section('content_header')
   <h1>Menyusun CPL  Bussiness Analyst</h1>
 @endsection
 
 @section('content')
   <div class="row">
-    <div class="col-sm-12">
-      <a href="#" class="btn btn-primary">Sikap</a>
-      <a href="#" class="btn btn-primary">Pengetahuan</a>
-      <a href="#" class="btn btn-primary">KU</a>
-      <a href="#" class="btn btn-primary">KK</a>
-      <div id="my-tree" style="height: 600px;">
-
-      </div>
-      <div class="box box-primary">
-        <div class="box-header with-border">
-          <h3 class="box-title">Pohon Capaian Lulusan</h3>
-        </div>
-        <div class="box-body" >
-
-        </div>
-        <div class="box-footer">
-          <a href="{{ url('/rumusan/pengetahuan') }}" class="btn btn-primary">Simpan dan Selanjutnya</a>
-          {{-- <a href="#" class="btn btn-default right">Tambah Okupansi</a> --}}
-        </div>
-      </div>
+    <div style="height: 100vh" class="mindmap-placeholder">
     </div>
+    <ul id="structure">
+      <li>
+          <div><strong>Bussiness Analyist</strong></div>
+          <ul>
+            <li><div><a href="#" data-toggle="modal" data-target="#tambahsikap">sikap</a></div>
+              <ul>
+                <li><div><span>bertakwa kepada Tuhan Yang Maha Esa dan mampu menunjukkan sikap religius</span></div></li>
+                <li><div><span>menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral dan etika;</span></div></li>
+                <li><div><span>dapat berperan sebagai warga negara yang bangga dan cinta tanah air, memiliki nasionalisme serta rasa tanggungjawab pada negara dan bangsa;</span></div></li>
+                <li><div><span>dapat berkontribusi dalam peningkatan mutu kehidupan bermasyarakat, berbangsa, dan bernegara berdasarkan Pancasila;</span></div></li>
+                <li><div><span>dapat bekerja sama dan memiliki kepekaan sosial serta kepedulian terhadap masyarakat dan lingkungan;</span></div></li>
+                <li><div><span>dapat menghargai keanekaragaman budaya, pandangan, agama, dan kepercayaan, serta pendapat atau temuan orisinal orang lain;</span></div></li>
+                <li><div><span>taat hukum dan disiplin dalam kehidupan bermasyarakat dan bernegara;</span></div></li>
+                <li><div><span>menunjukkan sikap bertanggungjawab atas pekerjaan di bidang keahliannya secara mandiri;</span></div></li>
+                <li><div><span>menginternalisasi nilai, norma, dan etika akademik;</span></div></li>
+                <li><div><span>menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan.</span></div></li>
+                <li><span></span></li>
+              </ul>
+            </li>
+            <li><div><a href="#" data-toggle="modal" data-target="#tambahsikap">Pengetahuan</a></div></li>
+            <li><div><span>Keterampilan Umum</span></div></li>
+            <li><div><span>Keterampilan Khusus</span></div></li>
+          </ul>
+      </li>
+    </ul>
 
-    {{-- <div class="col-sm-6">
-      <div class="box box-primary fixed">
-        <div class="box-header">
-          <h3 class="box-title">Sikap Capaian Lulusan D3 - Manajemen Informatika</h3>
-        </div>
-      </div>
-    </div> --}}
+    <div class="modal fade" id="tambahsikap" tabindex="-1" role="sikap">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Sikap</h4>
+          </div>
+          <div class="modal-body">
+            <p>One fine body&hellip;</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
   </div>
+
+  <div class="modal fade" id="tambahpengetahuan" tabindex="-1" role="sikap">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Sikap</h4>
+        </div>
+        <div class="modal-body">
+          <p>One fine body&hellip;</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+</div>
+
+<div class="modal fade" id="tambahku" tabindex="-1" role="sikap">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Sikap</h4>
+      </div>
+      <div class="modal-body">
+        <p>One fine body&hellip;</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</div>
+
+<div class="modal fade" id="tambahkk" tabindex="-1" role="sikap">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Sikap</h4>
+      </div>
+      <div class="modal-body">
+        <p>One fine body&hellip;</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</div>
 @endsection
 
 @push('js')
-<script src="{{ asset('js/go-debug.js') }}" charset="utf-8"></script>
+{{-- <script src="{{ asset('js/go-debug.js') }}" charset="utf-8"></script>
 <script type="text/javascript">
   var pohon = go.GraphObject.make;
   var myDiagram =
@@ -90,5 +204,36 @@
     { key: "44", parent: "4", name: "Keterampilan Umum", color: "Red" }
   ];
   myDiagram.model = model;
+</script> --}}
+
+<script src="{{ asset('/js/jquery-ui.min.js')}}" charset="utf-8"></script>
+<script src="{{ asset('/js/raphael.min.js')}}" charset="utf-8"></script>
+<script src="{{ asset('/js/buzzmap.min.js')}}" charset="utf-8"></script>
+<script type="text/javascript">
+  $('.mindmap-placeholder').buzzmap({
+      structure: '#structure', // Initial mind map structture
+      editable: true, // Set to true to interactively add and edit nodes. (see below)
+
+      onchange: function (node, data) {}, // See below
+      ondrag: function (root) {},
+      onshow: function (node) {},
+      onhide: function (node) {},
+      onremove: function (node) {},
+      fps: function (fps) {},
+
+      attract: 5, // The strength of the attracting force between the nodes.
+      repulse: 3, // The strength of the repelling force between the nodes.
+      wallRepulse: 0.5, // The strength of the repelling force of the map borders.
+      maxForce: 0.1,
+      damping: 0.90, // A higher percentage = higher elasticity of the linking lines.
+      acceleration: 5, // How fast the nodes can go, on their own.
+
+      lineWidth: '5px', // The width of the linking lines between two nodes.
+      lineColor: 'blue', // The color of the linking lines.
+      lineOpacity: 0.3, // The opacity of the linking lines.
+
+      minSpeed: 0.2, // The minimum speed until the animation will stop.
+      animationTimeout: 5 // Time in seconds until the animation stops, after leaving it untouched.
+  });
 </script>
 @endpush

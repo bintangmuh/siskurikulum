@@ -48,20 +48,25 @@
   <div class="row">
     <div style="height: 500px" class="mindmap-placeholder">
     </div>
+    <div class="row">
+      <div class="col-sm-offset-4 col-sm-4">
+        <a href="#" class="btn btn-lg btn-success" style="width: 100%">Simpan Rancangan Kurikulum</a>
+      </div>
+    </div>
     <ul id="structure">
       <li>
           <div><strong>D3 Manajemen Informatika</strong></div>
           <ul>
-            <li><div><a href="#">Bussiness Analyst</a></div>
-              <ul>
+            <li><div><a href="{{ url('/rumusan/mapping') }}">Bussiness Analyst</a></div>
+              {{-- <ul>
               	<li><div><span>Mindmapping</span></div></li>
               	<li><div><span>Brainstorming</span></div></li>
               	<li><div><span>Editing</span></div></li>
               	<li><div><span>Visualisation</span></div></li>
-              </ul>
+              </ul> --}}
             </li>
             <li><div><a href="#">Junior Programmer</a></div></li>
-            <li><div><a href="#">Junior Programmer</a></div></li>
+            <li><div><a href="#">DBA Programmer</a></div></li>
           </ul>
       </li>
     </ul>

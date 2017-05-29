@@ -60,7 +60,7 @@
                 <li><div><span>SS1</span></div></li>
                 <li><div><span>SS1</span></div></li>
                 <li><div><span>SS1</span></div></li>
-                <li><div><span><a href="#" data-toggle="modal" data-target="#tambahsikap">Tambah sikap</a></span></div></li>
+                <li><div><span><a href="#" data-toggle="modal" data-target="#tambahsikap" class="btn btn-default">Tambah sikap</a></span></div></li>
               </ul>
             </li>
             <li><div><span>Pengetahuan</span></div>

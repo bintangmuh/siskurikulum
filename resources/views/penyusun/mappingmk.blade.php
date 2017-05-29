@@ -12,7 +12,7 @@
     color:white;
     font-size:1em;
     text-align: center;
-    padding:5px 7px;
+    padding:0 7px;
     font-size:1.2em;
   }
   .buzzmap .node.active a {
@@ -42,8 +42,9 @@
 @endpush
 
 @section('content_header')
-  <h1>Menyusun CPL  Bussiness Analyst</h1>
+  <h1>Menyusun Bahan Kajian</h1>
   <a href="{{ url('/rumusan/profil/mapping')}}" class="btn btn-primary">Kembali</a>
+
 @endsection
 
 @section('content')
@@ -54,25 +55,26 @@
       <li>
           <div><strong>Bussiness Analyist</strong></div>
           <ul>
-            <li><div><span>Sikap <a href="{{ url('/rumusan/bk/mapping/sikap') }}" class="btn btn-default" style="color: black">Lengkapi Bahan Kajian</a></span></div>
+            <li><div><a href="#" data-toggle="modal" data-target="#tambahsikap">sikap</a></div>
               <ul>
                 <li><div><span>SS1</span></div></li>
-                <li><div><span>SS1</span></div></li>
-                <li><div><span>SS1</span></div></li>
-                <li><div><span>SS1</span></div></li>
-                <li><div><span><a href="#" data-toggle="modal" data-target="#tambahsikap">Tambah sikap</a></span></div></li>
+                <li><div><span>SS2</span></div></li>
+                <li><div><span>SS3</span></div></li>
+                <li><div><span>SS4</span></div></li>
+                <li><div><span>SS5</span></div></li>
               </ul>
             </li>
-            <li><div><span>Pengetahuan</span></div>
+            <li><div><a href="#" data-toggle="modal" data-target="#tambahpengetahuan">Pengetahuan</a></div></li>
+            <li><div><a href="#" data-toggle="modal" data-target="#tambahku"><span>Keterampilan Umum</span></a></div>
               <ul>
-                <li><div><span>PG1</span></div></li>
-                <li><div><span>PG1</span></div></li>
-                <li><div><span>PG1</span></div></li>
-                <li><div><span>PG1</span></div></li>
-                <li><div><a href="#" data-toggle="modal" data-target="#tambahpengetahuan">Tambah Pengetahuan</a></div></li>
+                <li><div><span>KU1</span></div>
+                  <ul>
+                    <li><div><span>BK1</span></div></li>
+                    <li><div><span>BK2</span></div></li>
+                  </ul>
+                </li>
               </ul>
             </li>
-            <li><div><a href="#" data-toggle="modal" data-target="#tambahku"><span>Keterampilan Umum</span></a></div></li>
             <li><div><a href="#" data-toggle="modal" data-target="#tambahkk"><span>Keterampilan Khusus</span></a></div></li>
           </ul>
       </li>
@@ -148,14 +150,14 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Simpan</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-    </div>
+  </div>
 
-    <div class="modal fade" id="tambahpengetahuan" tabindex="-1" role="sikap">
+  <div class="modal fade" id="tambahpengetahuan" tabindex="-1" role="sikap">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -172,27 +174,22 @@
             <tbody>
               <tr>
                 <td><input type="checkbox" name="" value=""></td>
-                <td>PG-1</td>
                 <td>Mampu memahami prinsip dan mekanisme kerja sistem komputer</td>
               </tr>
               <tr>
                 <td><input type="checkbox" name="" value=""></td>
-                <td>PG-1</td>
                 <td>Mampu melakukan analisis, desain dan membangun sistem Informasi</td>
               </tr>
               <tr>
                 <td><input type="checkbox" name="" value=""></td>
-                <td>PG-1</td>
                 <td>Mampu membangun system berbasis web dan mobile application</td>
               </tr>
               <tr>
                 <td><input type="checkbox" name="" value=""></td>
-                <td>PG-1</td>
                 <td>Mampu melakukan analisis dan desain basis data </td>
               </tr>
               <tr>
                 <td><input type="checkbox" name="" value=""></td>
-                <td>PG-1</td>
                 <td>Mampu melakukan perencanaan pengembangan system informasi</td>
               </tr>
             </tbody>
@@ -200,15 +197,15 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Simpan</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
         </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-    </div>
+  </div><!-- /.modal -->
+</div>
 
-    <div class="modal fade" id="tambahku" tabindex="-1" role="sikap">
-    <div class="modal-dialog" role="document">
+<div class="modal fade" id="tambahku" tabindex="-1" role="sikap">
+  <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -219,15 +216,15 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Simpan</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-    </div>
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</div>
 
-    <div class="modal fade" id="tambahkk" tabindex="-1" role="sikap">
-    <div class="modal-dialog" role="document">
+<div class="modal fade" id="tambahkk" tabindex="-1" role="sikap">
+  <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -238,11 +235,11 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Simpan</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 </div>
 @endsection
 

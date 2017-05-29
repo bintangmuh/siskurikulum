@@ -114,6 +114,15 @@ Route::get('/rumusan/bk/mapping', function() {
   return view('penyusun.mappingBK');
 });
 
+Route::get('/rumusan/bk/mapping/sikap', function() {
+  return view('penyusun.mappingsikapBK');
+});
+
+Route::get('/rumusan/mk/mapping', function() {
+  return view('penyusun.mappingmk');
+});
+
+
 Route::get('/rumusan/konfirmasi', function() {
   return view('penyusun.konfirmasi');
 });

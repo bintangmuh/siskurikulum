@@ -7,63 +7,86 @@
 @section('content')
   <div class="row">
     <div class="col-sm-12" style="margin-bottom: 20px;">
-      <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#tambahmk">Tambah Mata Kuliah</a>
+      <a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#tambahmk">Tambah Mata Kuliah</a>
     </div>
 
     <div class="col-sm-12">
 
       <div class="box box-primary">
-        <div class="box-content">
+        <div class="box-body">
           <table class="table table-hovered">
             <thead>
               <th>No.</th>
               <th>Mata Kuliah</th>
-              <th>SKS</th>
               <th>Bahan Kajian</th>
-              <th></th>
+              <th>Aksi</th>
             </thead>
             <tbody>
               <tr>
                 <td>1</td>
-                <td>Agama</td>
-                <td> 2 | 0</td>
+                <td>Agama Islam</td>
                 <td>Kecakapan Hidup</td>
-                <td><a href="#" class="btn btn-danger">delete</a></td>
+                <td style="width: 90px;">
+                  <div class="btn-group" role='group'>
+                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-pencil"></i></a> 
+                    <a href="#" class="btn btn-danger btn-sm"><i class="fa fa-times"></i></a>
+                  </div>
+                </td>
               </tr>
               <tr>
                 <td>2</td>
                 <td>Kewarganegraan</td>
-                <td> 2 | 0</td>
                 <td>Kecakapan Hidup</td>
-                <td><a href="#" class="btn btn-danger">delete</a></td>
+                <td style="width: 90px;">
+                  <div class="btn-group" role='group'>
+                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-pencil"></i></a> 
+                    <a href="#" class="btn btn-danger btn-sm"><i class="fa fa-times"></i></a>
+                  </div>
+                </td>
               </tr>
               <tr>
                 <td>3</td>
                 <td>Pancasila</td>
-                <td> 2 | 0</td>
                 <td>Kecakapan Hidup</td>
-                <td><a href="#" class="btn btn-danger">delete</a></td>
+                <td style="width: 90px;">
+                  <div class="btn-group" role='group'>
+                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-pencil"></i></a> 
+                    <a href="#" class="btn btn-danger btn-sm"><i class="fa fa-times"></i></a>
+                  </div>
+                </td>
               </tr>
               <tr>
                 <td>4</td>
                 <td>Pemrograman</td>
-                <td> 2 | 2</td>
                 <td>Algoritma dan Pemrograman</td>
-                <td><a href="#" class="btn btn-danger">delete</a></td>
+                <td style="width: 90px;">
+                  <div class="btn-group" role='group'>
+                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-pencil"></i></a> 
+                    <a href="#" class="btn btn-danger btn-sm"><i class="fa fa-times"></i></a>
+                  </div>
+                </td>
               </tr>
               <tr>
                 <td>5</td>
                 <td>Struktur Data</td>
-                <td> 2 | 2</td>
                 <td>Algoritma dan Pemrograman</td>
-                <td><a href="#" class="btn btn-danger">delete</a></td>
+                <td style="width: 90px;">
+                  <div class="btn-group" role='group'>
+                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-pencil"></i></a> 
+                    <a href="#" class="btn btn-danger btn-sm"><i class="fa fa-times"></i></a>
+                  </div>
+                </td>
               </tr>
               <tr>
                 <td>6</td>
                 <td>Algoritma</td>
-                <td> 2 | 2</td>
                 <td>Kecakapan Hidup</td>
-                <td><a href="#" class="btn btn-danger">delete</a></td>
+                <td style="width: 90px;">
+                  <div class="btn-group" role='group'>
+                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-pencil"></i></a> 
+                    <a href="#" class="btn btn-danger btn-sm"><i class="fa fa-times"></i></a>
+                  </div>
+                </td>
               </tr>
             </tbody>
           </table>
@@ -104,16 +127,17 @@
                   </div>
                 </div>
                 <div class="form-group">
+                  <label for="namabk" class="col-sm-4">Deskripsi: </label>
                   <div class="col-sm-12">
-                    <br>
-                    <button type="submit" class="btn btn-primary" name="button">Simpan</button>
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Batalkan</button>
+                    <textarea class="form-control" rows="5"></textarea>
                   </div>
                 </div>
               </form>
             </div>
           </div>
           <div class="modal-footer">
+            <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Batalkan</button>
+            <button type="submit" class="btn btn-sm btn-primary" name="button">Simpan</button>
           </div>
         </div>
 

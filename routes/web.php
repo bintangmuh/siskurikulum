@@ -36,11 +36,11 @@ Route::get('/struktur', function() {
 });
 
 Route::get('/okupansi', function() {
-  return view('pembentuk.okupansi');
+  return view('pembentuk.profillulusan');
 });
 
 Route::get('/okupansi/view', function() {
-  return view('pembentuk.okupansiview');
+  return view('pembentuk.profillulusanview');
 });
 
 Route::get('/bahankajian', function() {

@@ -128,29 +128,7 @@ return [
         ],
         'Pembentukan Database',
         [
-            'text' => 'Input CPL D3 MI',
-            'url' => '#',
-            'submenu' => [
-              [
-                'text' => 'Sikap',
-                'url' => 'sikap'
-              ],
-              [
-                'text' => 'Pengetahuan',
-                'url' => 'pengetahuan'
-              ],
-              [
-                'text' => 'Keterampilan Umum',
-                'url' => 'keterampilanumum'
-              ],
-              [
-                'text' => 'Keterampilan Khusus',
-                'url' => 'keterampilankhusus'
-              ]
-            ]
-        ],
-        [
-            'text' => 'Okupansi Industri',
+            'text' => 'Profil Lulusan',
             'url'  => 'okupansi'
         ],
         // [
@@ -166,40 +144,10 @@ return [
             'url'  => 'makul'
         ],
 
-        'Pembentukan Kurikulum',
+        'Penyusunan Kurikulum',
         [
-            'text' => 'Susunan Profil Lulusan',
-            'url'  => 'rumusanpl'
-        ],
-        [
-            'text' => 'Menentukan CPL D3',
-            'url'  => 'okupansi',
-            'submenu' => [
-              [
-                'text' => 'Sikap',
-                'url' => '/rumusan/sikap'
-              ],
-              [
-                'text' => 'Pengetahuan',
-                'url' => '/rumusan/pengetahuan'
-              ],
-              [
-                'text' => 'Keterampilan Umum',
-                'url' => '/rumusan/keterampilanumum'
-              ],
-              [
-                'text' => 'Keterampilan Khusus',
-                'url' => '/rumusan/keterampilankhusus'
-              ]
-            ]
-        ],
-        [
-            'text' => 'Susun Bahan Kajian',
-            'url'  => 'rumusan/bahankajian'
-        ],
-        [
-            'text' => 'Susun Mata Kuliah',
-            'url'  => 'rumusan/matakuliah'
+            'text' => 'Penyusunan Kurikulum',
+            'url'  => '/rumusan/profil/mapping'
         ],
     ],
 

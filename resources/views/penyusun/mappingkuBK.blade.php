@@ -49,40 +49,40 @@
     </div>
     <ul id="structure">
       <li>
-          <div><strong>Sikap</strong></div>
+          <div><strong>Keterampilan Umum</strong></div>
           <ul>
-            <li><div><span>SS6</span></div>
+            <li><div><span>KU-1</span></div>
               <ul>
                 <li><div><a href="#"  class="btn btn-default" data-toggle="modal" data-target="#tambahbk">tambah Bahan Kajian</a></div></li>
               </ul>
             </li>
-            <li><div><span>SS5</span></div>
+            <li><div><span>KU-2</span></div>
               <ul>
                 <li><div><a href="#"  class="btn btn-default" data-toggle="modal" data-target="#tambahbk">tambah Bahan Kajian</a></div></li>
               </ul>
             </li>
-            <li><div><span>SS4</span></div>
+            <li><div><span>KU-3</span></div>
               <ul>
                 <li><div><span>Kecakapan hidup <a href="#" class="btn btn-info">Tambah MK</a></span></div></li>
                 <li><div><a href="#"  class="btn btn-default" data-toggle="modal" data-target="#tambahbk">tambah Bahan Kajian</a></div></li>
               </ul>
             </li>
-            <li><div><span>SS3</span></div>
+            <li><div><span>KU-4</span></div>
               <ul>
                 <li><div><a href="#"  class="btn btn-default" data-toggle="modal" data-target="#tambahbk">tambah Bahan Kajian</a></div></li>
               </ul>
             </li>
-            <li><div><span>SS2</span></div>
+            <li><div><span>KU-5</span></div>
               <ul>
                 <li><div><a href="#" class="btn btn-default" data-toggle="modal" data-target="#tambahbk">tambah Bahan Kajian</a></div></li>
               </ul>
             </li>
-            <li><div><span>SS1</span></div>
+            <li><div><span>KU-6</span></div>
               <ul>
                 <li><div><a href="#" class="btn btn-default" data-toggle="modal" data-target="#tambahbk">tambah Bahan Kajian</a></div></li>
               </ul>
             </li>
-            <li><div><a href="#" class="btn btn-default" data-toggle="modal" data-target="#tambahsikap">Tambah Sikap</a></div></li>
+            <li><div><a href="#" class="btn btn-default" data-toggle="modal" data-target="#tambahku">tambah Keterampilan Umum</a></div></li>
 
           </ul>
       </li>
@@ -90,74 +90,65 @@
 
   </div>
 
-  {{-- Tambah Sikap --}}
-  <div class="modal fade" id="tambahsikap" tabindex="-1" role="sikap">
+  {{-- mapping KU --}}
+  <div class="modal fade" id="tambahku" tabindex="-1" role="sikap">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title">Sikap</h4>
+          <h4 class="modal-title">Keterampilan Umum</h4>
         </div>
         <div class="modal-body">
           <table class="table">
-            <thead>
-              <th>No.</th>
-              <th>Capaian</th>
-              <th></th>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="text-center"><input type="checkbox" name="" value=""></td>
-                <td>SS-1</td>
-                <td>bertakwa kepada Tuhan Yang Maha Esa dan mampu menunjukkan sikap religius</td>
-              </tr>
-              <tr>
-                <td class="text-center"><input type="checkbox" name="" value=""></td>
-                <td>SS-1</td>
-                <td>menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral dan etika;</td>
-              </tr>
-              <tr>
-                <td class="text-center"><input type="checkbox" name="" value=""></td>
-                <td>SS-1</td>
-                <td>dapat berperan sebagai warga negara yang bangga dan cinta tanah air, memiliki nasionalisme serta rasa tanggungjawab pada negara dan bangsa;</td>
-              </tr>
-              <tr>
-                <td class="text-center"><input type="checkbox" name="" value=""></td>
-                <td>SS-1</td>
-                <td>dapat berkontribusi dalam peningkatan mutu kehidupan bermasyarakat, berbangsa, dan bernegara berdasarkan Pancasila;</td>
-              </tr>
-              <tr>
-                <td class="text-center"><input type="checkbox" name="" value=""></td>
-                <td>SS-1</td>
-                <td>dapat bekerja sama dan memiliki kepekaan sosial serta kepedulian terhadap masyarakat dan lingkungan;</td>
-              </tr>
-              <tr>
-                <td class="text-center"><input type="checkbox" name="" value=""></td>
-                <td>SS-1</td>
-                <td>dapat menghargai keanekaragaman budaya, pandangan, agama, dan kepercayaan, serta pendapat atau temuan orisinal orang lain;</td>
-              </tr>
-              <tr>
-                <td class="text-center"><input type="checkbox" name="" value=""></td>
-                <td>SS-1</td>
-                <td>taat hukum dan disiplin dalam kehidupan bermasyarakat dan bernegara;</td>
-              </tr>
-              <tr>
-                <td class="text-center"><input type="checkbox" name="" value=""></td>
-                <td>SS-1</td>
-                <td>menunjukkan sikap bertanggungjawab atas pekerjaan di bidang keahliannya secara mandiri;</td>
-              </tr>
-              <tr>
-                <td class="text-center"><input type="checkbox" name="" value=""></td>
-                <td>SS-1</td>
-                <td>menginternalisasi nilai, norma, dan etika akademik;</td>
-              </tr>
-              <tr>
-                <td class="text-center"><input type="checkbox" name="" value=""></td>
-                <td>SS-1</td>
-                <td>menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan.</td>
-              </tr>
-            </tbody>
-          </table>
+                  <tbody>
+                    <tr>
+                      <td><input type="checkbox" name="" value=""></td>
+                      <td>KU-1</td>
+                      <td>mampu menyelesaikan pekerjaan berlingkup luas dan menganalisis data dengan beragam metode yang sesuai, baik yang belum maupun yang sudah baku;</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="" value=""></td>
+                      <td>KU-2</td>
+                      <td>Mampu menunjukkan kinerja mandiri, bermutu, dan terukur </td>
+                      <td style="width: 90px;">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="" value=""></td>
+                      <td>KU-3</td>
+                      <td>mampu memecahkan masalah pekerjaan dengan sifat dan konteks yang sesuai dengan bidang keahlian terapannya, didasarkan pada pemikiran logis, inovatif, dan bertanggung jawab atas hasilnya secara mandiri;</td>
+                      <td style="width: 90px;">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="" value=""></td>
+                      <td>KU-4</td>
+                      <td>mampu menyusun laporan hasil dan proses kerja secara akurat dan sahih, serta mengomunikasikan-nya secara efektif kepada pihak lain yang membutuhkan;</td>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="" value=""></td>
+                      <td>KU-5</td>
+                      <td>Mampu bekerja sama, berkomunikasi, dan berinovatif dalam pekerjaannya;</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="" value=""></td>
+                      <td>KU-6</td>
+                      <td>mampu bertanggungjawab atas pencapaian hasil kerja kelompok dan melakukan supervisi dan evaluasi terhadap penyelesaian pekerjaan yang ditugaskan kepada pekerja yang berada di bawah tanggung-jawabnya;</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="" value=""></td>
+                      <td>KU-7</td>
+                      <td>mampu melakukan proses evaluasi diri terhadap kelompok kerja yang berada dibawah tanggungjawabnya, dan mengelola pengembangan kompetensi kerja secara mandiri;</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="" value=""></td>
+                      <td>KU-8</td>
+                      <td>mampu mendokumentasikan, menyimpan, mengamankan, dan menemukan kembali data untuk menjamin kesahihan dan mencegah plagiasi;</td>
+                    </tr>
+                  </tbody>
+                </table>
+
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -166,13 +157,13 @@
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
-  {{-- Tambah Bahan Kajian Modal --}}
+  {{-- Bahan Kajian --}}
   <div class="modal fade" id="tambahbk" tabindex="-1" role="sikap">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title">Bahan Kajian</h4>
+          <h4 class="modal-title">Keterampilan Umum</h4>
         </div>
         <div class="modal-body">
           <table class="table">

@@ -12,7 +12,7 @@
     color:white;
     font-size:1em;
     text-align: center;
-    padding:0 7px;
+    padding:7px 7px;
     font-size:1.2em;
   }
   .buzzmap .node.active a {
@@ -50,7 +50,7 @@
     </div>
     <div class="row">
       <div class="col-sm-offset-4 col-sm-4">
-        <a href="#" class="btn btn-lg btn-success" style="width: 100%">Simpan Rancangan Kurikulum</a>
+        <a href="{{ url('/rumusan/struktur') }}" class="btn btn-lg btn-success" style="width: 100%">Simpan Rancangan Kurikulum</a>
       </div>
     </div>
     <ul id="structure">
@@ -67,6 +67,7 @@
             </li>
             <li><div><a href="#">Junior Programmer</a></div></li>
             <li><div><a href="#">DBA Programmer</a></div></li>
+            <li><div><a href="#" class="btn btn-primary">Tambah Profil Lulusan</a></div></li>
           </ul>
       </li>
     </ul>

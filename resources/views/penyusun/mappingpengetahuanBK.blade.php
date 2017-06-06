@@ -49,124 +49,98 @@
     </div>
     <ul id="structure">
       <li>
-          <div><strong>Sikap</strong></div>
+          <div><strong>Pengetahuan</strong></div>
           <ul>
-            <li><div><span>SS6</span></div>
+            <li><div><span>PG6</span></div>
               <ul>
                 <li><div><a href="#"  class="btn btn-default" data-toggle="modal" data-target="#tambahbk">tambah Bahan Kajian</a></div></li>
               </ul>
             </li>
-            <li><div><span>SS5</span></div>
+            <li><div><span>PG6</span></div>
               <ul>
                 <li><div><a href="#"  class="btn btn-default" data-toggle="modal" data-target="#tambahbk">tambah Bahan Kajian</a></div></li>
               </ul>
             </li>
-            <li><div><span>SS4</span></div>
+            <li><div><span>PG5</span></div>
               <ul>
                 <li><div><span>Kecakapan hidup <a href="#" class="btn btn-info">Tambah MK</a></span></div></li>
                 <li><div><a href="#"  class="btn btn-default" data-toggle="modal" data-target="#tambahbk">tambah Bahan Kajian</a></div></li>
               </ul>
             </li>
-            <li><div><span>SS3</span></div>
+            <li><div><span>PG4</span></div>
               <ul>
                 <li><div><a href="#"  class="btn btn-default" data-toggle="modal" data-target="#tambahbk">tambah Bahan Kajian</a></div></li>
               </ul>
             </li>
-            <li><div><span>SS2</span></div>
+            <li><div><span>PG1</span></div>
               <ul>
                 <li><div><a href="#" class="btn btn-default" data-toggle="modal" data-target="#tambahbk">tambah Bahan Kajian</a></div></li>
-              </ul>
-            </li>
-            <li><div><span>SS1</span></div>
-              <ul>
-                <li><div><a href="#" class="btn btn-default" data-toggle="modal" data-target="#tambahbk">tambah Bahan Kajian</a></div></li>
-              </ul>
-            </li>
-            <li><div><a href="#" class="btn btn-default" data-toggle="modal" data-target="#tambahsikap">Tambah Sikap</a></div></li>
+                <li><div><span>Sistem Komputer <a href="#" class="btn btn-info">Tambah MK</a></span></div></li>
 
+              </ul>
+            </li>
+            <li><div><span>PG2</span></div>
+              <ul>
+                <li><div><a href="#" class="btn btn-default" data-toggle="modal" data-target="#tambahbk">tambah Bahan Kajian</a></div></li>
+              </ul>
+            </li>
+            <li><div><a href="#" class="btn btn-default" data-toggle="modal" data-target="#tambahpengetahuan">Tambah Pengetahuan</a></div></li>
           </ul>
       </li>
     </ul>
-
   </div>
-
-  {{-- Tambah Sikap --}}
-  <div class="modal fade" id="tambahsikap" tabindex="-1" role="sikap">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title">Sikap</h4>
-        </div>
-        <div class="modal-body">
-          <table class="table">
-            <thead>
-              <th>No.</th>
-              <th>Capaian</th>
-              <th></th>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="text-center"><input type="checkbox" name="" value=""></td>
-                <td>SS-1</td>
-                <td>bertakwa kepada Tuhan Yang Maha Esa dan mampu menunjukkan sikap religius</td>
-              </tr>
-              <tr>
-                <td class="text-center"><input type="checkbox" name="" value=""></td>
-                <td>SS-1</td>
-                <td>menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral dan etika;</td>
-              </tr>
-              <tr>
-                <td class="text-center"><input type="checkbox" name="" value=""></td>
-                <td>SS-1</td>
-                <td>dapat berperan sebagai warga negara yang bangga dan cinta tanah air, memiliki nasionalisme serta rasa tanggungjawab pada negara dan bangsa;</td>
-              </tr>
-              <tr>
-                <td class="text-center"><input type="checkbox" name="" value=""></td>
-                <td>SS-1</td>
-                <td>dapat berkontribusi dalam peningkatan mutu kehidupan bermasyarakat, berbangsa, dan bernegara berdasarkan Pancasila;</td>
-              </tr>
-              <tr>
-                <td class="text-center"><input type="checkbox" name="" value=""></td>
-                <td>SS-1</td>
-                <td>dapat bekerja sama dan memiliki kepekaan sosial serta kepedulian terhadap masyarakat dan lingkungan;</td>
-              </tr>
-              <tr>
-                <td class="text-center"><input type="checkbox" name="" value=""></td>
-                <td>SS-1</td>
-                <td>dapat menghargai keanekaragaman budaya, pandangan, agama, dan kepercayaan, serta pendapat atau temuan orisinal orang lain;</td>
-              </tr>
-              <tr>
-                <td class="text-center"><input type="checkbox" name="" value=""></td>
-                <td>SS-1</td>
-                <td>taat hukum dan disiplin dalam kehidupan bermasyarakat dan bernegara;</td>
-              </tr>
-              <tr>
-                <td class="text-center"><input type="checkbox" name="" value=""></td>
-                <td>SS-1</td>
-                <td>menunjukkan sikap bertanggungjawab atas pekerjaan di bidang keahliannya secara mandiri;</td>
-              </tr>
-              <tr>
-                <td class="text-center"><input type="checkbox" name="" value=""></td>
-                <td>SS-1</td>
-                <td>menginternalisasi nilai, norma, dan etika akademik;</td>
-              </tr>
-              <tr>
-                <td class="text-center"><input type="checkbox" name="" value=""></td>
-                <td>SS-1</td>
-                <td>menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan.</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Simpan</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
+  {{-- Modal Tambah pengetahuan --}}
+  <div class="modal fade" id="tambahpengetahuan" tabindex="-1" role="sikap">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Pengetahuan</h4>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+            <th>No.</th>
+            <th>Capaian</th>
+            <th></th>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="checkbox" name="" value=""></td>
+              <td>PG-1</td>
+              <td>Mampu memahami prinsip dan mekanisme kerja sistem komputer</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" value=""></td>
+              <td>PG-2</td>
+              <td>Mampu melakukan analisis, desain dan membangun sistem Informasi</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" value=""></td>
+              <td>PG-3</td>
+              <td>Mampu membangun system berbasis web dan mobile application</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" value=""></td>
+              <td>PG-4</td>
+              <td>Mampu melakukan analisis dan desain basis data </td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" value=""></td>
+              <td>PG-5</td>
+              <td>Mampu melakukan perencanaan pengembangan system informasi</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Simpan</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
-  {{-- Tambah Bahan Kajian Modal --}}
+  {{-- Modal Tambah Bahan Kajian --}}
   <div class="modal fade" id="tambahbk" tabindex="-1" role="sikap">
     <div class="modal-dialog" role="document">
       <div class="modal-content">

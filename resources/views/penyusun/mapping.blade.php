@@ -60,20 +60,20 @@
                 <li><div><span>SS1</span></div></li>
                 <li><div><span>SS1</span></div></li>
                 <li><div><span>SS1</span></div></li>
-                <li><div><span><a href="#" data-toggle="modal" data-target="#tambahsikap" class="btn btn-default">Tambah sikap</a></span></div></li>
+                <li><div><span><a href="#" data-toggle="modal" data-target="#tambahsikap" class="btn btn-default" style="color: #000">Tambah sikap</a></span></div></li>
               </ul>
             </li>
-            <li><div><span>Pengetahuan</span></div>
+            <li><div><a href="{{ url('/rumusan/bk/mapping/pengetahuan')  }}">Pengetahuan</a></div>
               <ul>
                 <li><div><span>PG1</span></div></li>
                 <li><div><span>PG1</span></div></li>
                 <li><div><span>PG1</span></div></li>
                 <li><div><span>PG1</span></div></li>
-                <li><div><a href="#" data-toggle="modal" data-target="#tambahpengetahuan">Tambah Pengetahuan</a></div></li>
+                <li><div><a href="{{ url('/rumusan/bk/mapping/pengetahuan')  }}">Tambah Pengetahuan</a></div></li>
               </ul>
             </li>
-            <li><div><a href="#" data-toggle="modal" data-target="#tambahku"><span>Keterampilan Umum</span></a></div></li>
-            <li><div><a href="#" data-toggle="modal" data-target="#tambahkk"><span>Keterampilan Khusus</span></a></div></li>
+            <li><div><a href="{{ url('/rumusan/bk/mapping/ku')  }}" ><span>Keterampilan Umum</span></a></div></li>
+            <li><div><a href="{{ url('/rumusan/bk/mapping/kk')  }}" ><span>Keterampilan Khusus</span></a></div></li>
           </ul>
       </li>
     </ul>
@@ -156,7 +156,7 @@
     </div>
 
     <div class="modal fade" id="tambahpengetahuan" tabindex="-1" role="sikap">
-    <div class="modal-dialog" role="document">
+      <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -208,21 +208,21 @@
     </div>
 
     <div class="modal fade" id="tambahku" tabindex="-1" role="sikap">
-    <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Keterampilan Umum</h4>
-      </div>
-      <div class="modal-body">
-        <p>One fine body&hellip;</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Simpan</button>
-      </div>
-    </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Keterampilan Umum</h4>
+          </div>
+          <div class="modal-body">
+            <p>One fine body&hellip;</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Simpan</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
     </div>
 

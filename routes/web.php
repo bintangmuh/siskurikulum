@@ -118,10 +118,29 @@ Route::get('/rumusan/bk/mapping/sikap', function() {
   return view('penyusun.mappingsikapBK');
 });
 
+Route::get('/rumusan/bk/mapping/sikap/makul', function() {
+  return view('penyusun.mappingsikapBK');
+});
+
+Route::get('/rumusan/bk/mapping/pengetahuan', function() {
+  return view('penyusun.mappingpengetahuanBK');
+});
+
+Route::get('/rumusan/bk/mapping/ku', function() {
+  return view('penyusun.mappingkuBK');
+});
+
+Route::get('/rumusan/bk/mapping/kk', function() {
+  return view('penyusun.mappingkkBK');
+});
+
 Route::get('/rumusan/mk/mapping', function() {
   return view('penyusun.mappingmk');
 });
 
+Route::get('/rumusan/struktur', function() {
+  return view('penyusun.mappingstruktur');
+});
 
 Route::get('/rumusan/konfirmasi', function() {
   return view('penyusun.konfirmasi');

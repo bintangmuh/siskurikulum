@@ -75,7 +75,7 @@
             <li><div><span>PG1</span></div>
               <ul>
                 <li><div><a href="#" class="btn btn-default" data-toggle="modal" data-target="#tambahbk">tambah Bahan Kajian</a></div></li>
-                <li><div><span>Sistem Komputer <a href="#" class="btn btn-info">Tambah MK</a></span></div></li>
+                <li><div><span>Arsitektur Komputer <a href="#" class="btn btn-info" data-toggle="modal" data-target="#tambahmk">Tambah MK</a></span></div></li>
 
               </ul>
             </li>
@@ -139,6 +139,45 @@
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  {{-- Tambah MK --}}
+  <div class="modal fade" id="tambahmk" tabindex="-1" role="sikap">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Mata Kuliah terkait: <b>Arsitektur Komputer</b></h4>
+        </div>
+        <div class="modal-body">
+          <table class="table">
+            <tr>
+              <td><input type="checkbox" name="" value=""></td>
+              <td>MK-3</td>
+              <td>Organisasi Sistem Komputer</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" value=""></td>
+              <td>MK-4</td>
+              <td>Perakitan Komputer</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" value=""></td>
+              <td>MK-5</td>
+              <td>Teknik Digital</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" value=""></td>
+              <td>MK-5</td>
+              <td>Sistem Digital</td>
+            </tr>
+          </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Simpan</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
   {{-- Modal Tambah Bahan Kajian --}}
   <div class="modal fade" id="tambahbk" tabindex="-1" role="sikap">

@@ -53,7 +53,7 @@
           <ul>
             <li><div><span>KK3</span></div>
               <ul>
-                <li><div><span>Algoritma dan Pemrograman <a href="#" class="btn btn-info">Tambah MK</a></span></div></li>
+                <li><div><span>Algoritma dan Pemrograman <a href="#" class="btn btn-info" data-toggle="modal" data-target="#tambahmk">Tambah MK</a></span></div></li>
                 <li><div><a href="#"  class="btn btn-default" data-toggle="modal" data-target="#tambahbk">tambah Bahan Kajian</a></div></li>
               </ul>
             </li>
@@ -76,6 +76,7 @@
     </ul>
 
   </div>
+
   {{-- KK --}}
   <div class="modal fade" id="tambahkk" tabindex="-1" role="sikap">
     <div class="modal-dialog" role="document">
@@ -100,6 +101,45 @@
               <td><input type="checkbox" name="" value=""></td>
               <td>KK-5</td>
               <td>Mengetahui dan memahami pembuatan antara muka grafis, </td>
+            </tr>
+          </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Simpan</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  {{-- Mata Kuliah --}}
+  <div class="modal fade" id="tambahmk" tabindex="-1" role="sikap">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Mata Kuliah terkait: <b>Algoritma Dan Pemrograman</b></h4>
+        </div>
+        <div class="modal-body">
+          <table class="table">
+            <tr>
+              <td><input type="checkbox" name="" value=""></td>
+              <td>MK-3</td>
+              <td>Pemrograman Dasar</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" value=""></td>
+              <td>MK-4</td>
+                <td>Pemrograman Berorientasi Objek</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" value=""></td>
+              <td>MK-5</td>
+              <td>Algoritma</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="" value=""></td>
+              <td>MK-5</td>
+              <td>Struktur Data</td>
             </tr>
           </table>
         </div>

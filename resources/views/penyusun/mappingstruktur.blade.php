@@ -31,59 +31,49 @@
                 <div class="panel-body">
                     <div id="semester1" class="kanban-centered">
 
-                      <article class="kanban-entry grab" id="item5" draggable="true">
+                      <article class="kanban-entry grab" id="mk-1" draggable="true">
                           <div class="kanban-entry-inner">
-
                               <div class="kanban-label">
                                   Agama
                               </div>
                           </div>
                       </article>
 
-                      <article class="kanban-entry grab" id="item5" draggable="true">
+
+                      <article class="kanban-entry grab" id="mk-2" draggable="true">
                           <div class="kanban-entry-inner">
-
-                              <div class="kanban-label">
-                                  Pancasila
-                              </div>
+                            <div class="kanban-label">
+                            Pancasila
                           </div>
-                      </article>
+                      </div>
+                  </article>
 
-                      <article class="kanban-entry grab" id="item5" draggable="true">
+                      <article class="kanban-entry grab" id="mk-3" draggable="true">
                           <div class="kanban-entry-inner">
-
-                              <div class="kanban-label">
-                                  Algoritma Pemrograman
-                              </div>
+                            <div class="kanban-label">
+                            Bahasa Indonesia
                           </div>
-                      </article>
+                      </div>
+                  </article>
 
-                      <article class="kanban-entry grab" id="item5" draggable="true">
+                      <article class="kanban-entry grab" id="mk-4" draggable="true">
                           <div class="kanban-entry-inner">
-
-                              <div class="kanban-label">
-                                  Matematika
-                              </div>
+                            <div class="kanban-label">
+                            Pendidikan Kewarganegaraan
                           </div>
-                      </article>
+                      </div>
+                  </article>
 
-                      <article class="kanban-entry grab" id="item5" draggable="true">
+
+                      <article class="kanban-entry grab" id="mk-5" draggable="true">
                           <div class="kanban-entry-inner">
-
-                              <div class="kanban-label">
-                                  PKn
-                              </div>
+                            <div class="kanban-label">
+                            Bahasa Inggris
                           </div>
-                      </article>
+                      </div>
+                  </article>
 
-                      <article class="kanban-entry grab" id="item5" draggable="true">
-                          <div class="kanban-entry-inner">
 
-                              <div class="kanban-label">
-                                  Praktik Algoritma Pemrograman
-                              </div>
-                          </div>
-                      </article>
                     </div>
                 </div>
             </div>
@@ -95,33 +85,28 @@
                 </div>
                 <div class="panel-body">
                     <div id="semester2" class="kanban-centered">
-
-                      <article class="kanban-entry grab" id="item5" draggable="true">
+                      <article class="kanban-entry grab" id="mk7" draggable="true">
                           <div class="kanban-entry-inner">
-
                               <div class="kanban-label">
-                                  Agama
+                                Basis Data,
+                              </div>
+                          </div>
+                      </article>
+                      <article class="kanban-entry grab" id="mk8" draggable="true">
+                          <div class="kanban-entry-inner">
+                              <div class="kanban-label">
+                                Rekayasa Perangkat Lunak,
+                              </div>
+                          </div>
+                      </article>
+                      <article class="kanban-entry grab" id="mk9" draggable="true">
+                          <div class="kanban-entry-inner">
+                              <div class="kanban-label">
+                                Interaksi Manusia-Komputer (HCI).
                               </div>
                           </div>
                       </article>
 
-                      <article class="kanban-entry grab" id="item5" draggable="true">
-                          <div class="kanban-entry-inner">
-
-                              <div class="kanban-label">
-                                  Pancasila
-                              </div>
-                          </div>
-                      </article>
-
-                      <article class="kanban-entry grab" id="item5" draggable="true">
-                          <div class="kanban-entry-inner">
-
-                              <div class="kanban-label">
-                                  Algoritma Pemrograman
-                              </div>
-                          </div>
-                      </article>
 
                     </div>
                 </div>
@@ -138,32 +123,49 @@
                 <div class="panel-body">
                       <div id="semester3" class="kanban-centered">
 
-                        <article class="kanban-entry grab" id="item5" draggable="true">
+                        <article class="kanban-entry grab" id="mk7" draggable="true">
                             <div class="kanban-entry-inner">
-
                                 <div class="kanban-label">
-                                    Agama
+                                  OSK
+                                </div>
+                            </div>
+                        </article>
+                        <article class="kanban-entry grab" id="mk8" draggable="true">
+                            <div class="kanban-entry-inner">
+                                <div class="kanban-label">
+                                  Jaringan Komputer
+                                </div>
+                            </div>
+                        </article>
+                        <article class="kanban-entry grab" id="mk9" draggable="true">
+                            <div class="kanban-entry-inner">
+                                <div class="kanban-label">
+                                  Pemrograman
+                                </div>
+                            </div>
+                        </article>
+                        <article class="kanban-entry grab" id="mk10" draggable="true">
+                            <div class="kanban-entry-inner">
+                                <div class="kanban-label">
+                                  ALgoritma
+                                </div>
+                            </div>
+                        </article>
+                        <article class="kanban-entry grab" id="mk11" draggable="true">
+                            <div class="kanban-entry-inner">
+                                <div class="kanban-label">
+                                  Praktik Pemrograman
+                                </div>
+                            </div>
+                        </article>
+                        <article class="kanban-entry grab" id="mk12" draggable="true">
+                            <div class="kanban-entry-inner">
+                                <div class="kanban-label">
+                                  Strukur Data
                                 </div>
                             </div>
                         </article>
 
-                        <article class="kanban-entry grab" id="item5" draggable="true">
-                            <div class="kanban-entry-inner">
-
-                                <div class="kanban-label">
-                                    Pancasila
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="kanban-entry grab" id="item5" draggable="true">
-                            <div class="kanban-entry-inner">
-
-                                <div class="kanban-label">
-                                    Algoritma Pemrograman
-                                </div>
-                            </div>
-                        </article>
                     </div>
                 </div>
 
@@ -175,34 +177,13 @@
                 </div>
                 <div class="panel-body">
                     <div id="semester4" class="kanban-centered">
-
                       <article class="kanban-entry grab" id="item5" draggable="true">
                           <div class="kanban-entry-inner">
-
                               <div class="kanban-label">
                                   Agama
                               </div>
                           </div>
                       </article>
-
-                      <article class="kanban-entry grab" id="item5" draggable="true">
-                          <div class="kanban-entry-inner">
-
-                              <div class="kanban-label">
-                                  Pancasila
-                              </div>
-                          </div>
-                      </article>
-
-                      <article class="kanban-entry grab" id="item5" draggable="true">
-                          <div class="kanban-entry-inner">
-
-                              <div class="kanban-label">
-                                  Algoritma Pemrograman
-                              </div>
-                          </div>
-                      </article>
-
                     </div>
                 </div>
             </div>
@@ -215,32 +196,7 @@
                 <div class="panel-body">
                     <div id="semester5" class="kanban-centered">
 
-                      <article class="kanban-entry grab" id="item5" draggable="true">
-                          <div class="kanban-entry-inner">
 
-                              <div class="kanban-label">
-                                  Agama
-                              </div>
-                          </div>
-                      </article>
-
-                      <article class="kanban-entry grab" id="item5" draggable="true">
-                          <div class="kanban-entry-inner">
-
-                              <div class="kanban-label">
-                                  Pancasila
-                              </div>
-                          </div>
-                      </article>
-
-                      <article class="kanban-entry grab" id="item5" draggable="true">
-                          <div class="kanban-entry-inner">
-
-                              <div class="kanban-label">
-                                  Algoritma Pemrograman
-                              </div>
-                          </div>
-                      </article>
 
                     </div>
                 </div>
@@ -254,32 +210,24 @@
                 <div class="panel-body">
                     <div id="semester6" class="kanban-centered">
 
-                      <article class="kanban-entry grab" id="item5" draggable="true">
+                      <article class="kanban-entry grab" id="mk-90" draggable="true">
                           <div class="kanban-entry-inner">
 
                               <div class="kanban-label">
-                                  Agama
+                                  Tugas Akhir
                               </div>
                           </div>
                       </article>
 
-                      <article class="kanban-entry grab" id="item5" draggable="true">
+                      <article class="kanban-entry grab" id="mk-89" draggable="true">
                           <div class="kanban-entry-inner">
 
                               <div class="kanban-label">
-                                  Pancasila
+                                  Magang
                               </div>
                           </div>
                       </article>
 
-                      <article class="kanban-entry grab" id="item5" draggable="true">
-                          <div class="kanban-entry-inner">
-
-                              <div class="kanban-label">
-                                  Algoritma Pemrograman
-                              </div>
-                          </div>
-                      </article>
 
                     </div>
                 </div>

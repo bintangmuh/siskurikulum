@@ -54,22 +54,22 @@
       <li>
           <div><strong>Bussiness Analyist</strong></div>
           <ul>
-            <li><div><span>Sikap <a href="{{ url('/rumusan/bk/mapping/sikap') }}" class="btn btn-default" style="color: black">Lengkapi Bahan Kajian</a></span></div>
+            <li><div><a href="{{ url('/rumusan/bk/mapping/sikap') }}">Sikap</a></div>
               <ul>
+                {{-- <li><div><span>SS1</span></div></li>
                 <li><div><span>SS1</span></div></li>
                 <li><div><span>SS1</span></div></li>
-                <li><div><span>SS1</span></div></li>
-                <li><div><span>SS1</span></div></li>
-                <li><div><span><a href="#" data-toggle="modal" data-target="#tambahsikap" class="btn btn-default" style="color: #000">Tambah sikap</a></span></div></li>
+                <li><div><span>SS1</span></div></li> --}}
+                {{-- <li><div><span><a href="#" data-toggle="modal" data-target="#tambahsikap" class="btn btn-default" style="color: #000">Tambah sikap</a></span></div></li> --}}
               </ul>
             </li>
             <li><div><a href="{{ url('/rumusan/bk/mapping/pengetahuan')  }}">Pengetahuan</a></div>
               <ul>
+                {{-- <li><div><span>PG1</span></div></li>
                 <li><div><span>PG1</span></div></li>
                 <li><div><span>PG1</span></div></li>
-                <li><div><span>PG1</span></div></li>
-                <li><div><span>PG1</span></div></li>
-                <li><div><a href="{{ url('/rumusan/bk/mapping/pengetahuan')  }}">Tambah Pengetahuan</a></div></li>
+                <li><div><span>PG1</span></div></li> --}}
+                {{-- <li><div><a href="{{ url('/rumusan/bk/mapping/pengetahuan')  }}">Tambah Pengetahuan</a></div></li> --}}
               </ul>
             </li>
             <li><div><a href="{{ url('/rumusan/bk/mapping/ku')  }}" ><span>Keterampilan Umum</span></a></div></li>
